@@ -7,8 +7,9 @@ project(test C CXX ASM)
 pico_sdk_init()
 
 add_executable(test
-    src/mainl.c
+    src/main.c
     src/display.c
+    src/joystick.c
     ../lib/pico-ssd1306/ssd1306.c
 )
 
